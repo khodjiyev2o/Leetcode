@@ -12,3 +12,7 @@ def two_sum(arr: list[int], target: int) -> bool:
         else:
             complements[i] = subsc
     return False
+
+assert two_sum([1, 4, 5, 2], 3) == True
+assert two_sum([1,4,5,2], 8) == False
+assert two_sum([11, 41, 7, 9], 18) == True
