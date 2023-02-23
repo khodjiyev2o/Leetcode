@@ -30,9 +30,8 @@ def isAnagram(word1: str, word2: str) -> bool:
             if i not in newDict or newDict[i] <= 0:
                 return False
         return True
-words = [1,2,3,5,6,7]
-newWords = words[::]
-words.append(1)
+
+
 
 
 assert is_anagram("lama", "alam") == True
