@@ -21,3 +21,5 @@ def info(*country) -> None:
 
 
 info(country1, country2)
+
+
