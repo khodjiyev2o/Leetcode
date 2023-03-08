@@ -29,3 +29,4 @@ def test_middleNode():
     assert middleNode(head).val == 4
 
 test_middleNode()
+
