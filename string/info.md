@@ -44,3 +44,6 @@ However, if the object in a tuple is a mutable object such as a list, such objec
 >>> companies
     (['lockheedMartin', 'Boeing', 'SpaceX'], ['Google', 'Microsoft'])
 ```
+
+6. Sets are unindexed collection of objects that are unique. Sets cannot be indexed, unlike tuple and list.
+    Tuple can be indexed , but cannot be changed. List can be indexed and changed.
