@@ -32,3 +32,15 @@ companies = "Google", "Microsoft", "Tesla"
 ```
 Tuples are integer indexed just like lists but are immutable; once created 
     the contents cannot be changed by any means such as by assignment.
+
+However, if the object in a tuple is a mutable object such as a list, such object 
+    can be changed as shown in the following example:
+```
+
+>>> companies = (["lockheedMartin", "Boeing"], ["Google", "Microsoft"])
+>>> companies
+    (['lockheedMartin', 'Boeing'], ['Google', 'Microsoft'])
+>>> companies[0].append("SpaceX")
+>>> companies
+    (['lockheedMartin', 'Boeing', 'SpaceX'], ['Google', 'Microsoft'])
+```
