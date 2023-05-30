@@ -20,3 +20,13 @@ names = ["Joe", "Obi", "Chris", "Jamie"]
 for index, name in enumerate(names):
     print("{}. {}".format(index, name))
 ```
+
+5. Tuples: These are also another type of sequence structures. A tuple consists of a number of comma
+    separated objects for example.
+```
+
+companies = "Google", "Microsoft", "Tesla"
+>>> companies
+('Google', 'Microsoft', 'Tesla')
+    
+```
