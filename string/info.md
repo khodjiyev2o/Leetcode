@@ -15,8 +15,8 @@ full_name = name + surname
 
 ```
 4. Python Enumerat
-``
+```
 names = ["Joe", "Obi", "Chris", "Jamie"]
 for index, name in enumerate(names):
     print("{}. {}".format(index, name))
-``
+```
