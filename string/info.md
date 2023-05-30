@@ -30,3 +30,5 @@ companies = "Google", "Microsoft", "Tesla"
 ('Google', 'Microsoft', 'Tesla')
     
 ```
+Tuples are integer indexed just like lists but are immutable; once created 
+    the contents cannot be changed by any means such as by assignment.
