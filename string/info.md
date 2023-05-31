@@ -47,3 +47,30 @@ However, if the object in a tuple is a mutable object such as a list, such objec
 
 6. Sets are unindexed collection of objects that are unique. Sets cannot be indexed, unlike tuple and list.
     Tuple can be indexed , but cannot be changed. List can be indexed and changed.
+
+7. Dictionary is hash table under the hood.
+
+8. Python has 3 types of  name-spaces: global, local and built-in.
+    global name-space is created at the start of the execution of a module,
+    the built-in name-space comes into existence when the interpeter is invoked,
+    local name-space is created at the invocation of a function.
+9. It is impossible to change the global scope variable value from local function, to do that
+   we need to "global" keyword , before the variable name.
+```
+a = 2
+def inc_a():
+    global a
+    a+=1
+```
+also , it is impossible to change the local scope variable value from local function, to do that
+   we need to "nonlocal" keyword , before the variable name.
+```
+def make_counter():
+    count = 0
+
+    def counter():
+        nonlocal count
+        count += 1
+        return count
+    return counter
+```
