@@ -65,8 +65,10 @@ class BaseClass:
 
 class Subclass(BaseClass):
     __slots__ = ['another']
+
     def __init__(self, attribute, another):
         super().__init__(attribute)
         self.another = another
+
 
 a = Subclass(attribute='attribute', another=111)
